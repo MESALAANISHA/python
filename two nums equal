@@ -1,0 +1,15 @@
+#program to take two inputs and return "equals" if they are equal
+a=eval(input("enter a:"))
+b=eval(input("enter b:"))
+if a==b:
+    print("Equals")
+    
+    
+    
+    
+    
+------ OUTPUT:-----
+    enter a:4
+enter b:4
+Equals
+
