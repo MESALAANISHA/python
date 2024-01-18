@@ -1,0 +1,4 @@
+# python code to find power of number
+a=int(input())
+b=int(input())
+print(pow(a,b))
