@@ -1,0 +1,7 @@
+# python code to print perfect square
+n=int(input())
+sqrt=int(n**0.5)
+if sqrt*sqrt == n:
+	print("true")
+else:
+	print("false")
