@@ -1,0 +1,12 @@
+# python code to find prime factors of a number
+num = int(input("Enter a number: "))
+factors = []
+divisor = 2
+
+while num > 1:
+    while num % divisor == 0:
+        factors.append(divisor)
+        num //= divisor
+    divisor += 1
+
+print(f"Prime factors of {num}: {factors}")
