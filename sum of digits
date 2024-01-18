@@ -1,0 +1,8 @@
+# python code to print sum of digits of a number
+n=input()
+sum = 0
+for i in n:
+	sum = sum + int(i)
+	
+print(sum)
+
