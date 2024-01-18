@@ -1,0 +1,13 @@
+# python code to find the Armstrong number between  two intervals
+a=int(input())
+b=int(input())
+for i in range(a,b+1):
+	order=len(str(i))
+	temp=i
+	sum=0
+	while temp>0:
+		rem=temp%10
+		sum=sum+rem**order
+		temp=temp//10
+	if i==sum:
+		print(i, end=", ")
