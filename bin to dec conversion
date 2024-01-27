@@ -1,0 +1,12 @@
+# python code to covert binary to decimal number
+n=int(input())
+bin=n
+dec=0
+b=1
+while n>0:
+	rem=n%10
+	dec=dec+rem*b
+	n=n//10
+	b=b*2
+print("Binary number=",bin)
+print("decimal number=",dec)
