@@ -1,0 +1,4 @@
+
+#WAP to input user name and return its lenght
+name=str(input())
+print(name,len(name))
