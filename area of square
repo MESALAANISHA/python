@@ -1,0 +1,3 @@
+a=int(input("enter side of a square:\n"))
+print("Area=",a**2)
+#a*a=a**2
