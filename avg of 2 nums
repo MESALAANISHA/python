@@ -1,0 +1,4 @@
+#WAP to input 2 floating point numbers and print their average
+a=float(input("enter the value of a:\n"))
+b=float(input("enter the value of b:\n"))
+print("average of 2 numbers is:", (a+b)/2)
