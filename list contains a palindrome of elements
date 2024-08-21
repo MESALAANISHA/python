@@ -1,0 +1,8 @@
+#WAP to check if a list contains a palindrome of elements(hint: use copy() method)
+l=[1,2,'a',2,1]
+c=l.copy()
+c.reverse()
+if(l == c):
+	print("palindrome")
+else:
+	print("not a palindrome")
